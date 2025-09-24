@@ -1,0 +1,15 @@
+# Environment files
+.env
+.env.local
+.env.production
+
+# Log files
+/logs/*.log
+/logs/*.json
+
+# Upload directories (if sensitive)
+/uploads/*
+!/uploads/.gitkeep
+
+# Configuration files with secrets
+config/secrets.php
